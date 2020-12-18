@@ -18,15 +18,17 @@ class MyLink {
 
 public class ReverseLink {
 
-    public static void reverse(MyLink link) {
+    public static MyLink reverse(MyLink link) {
         MyLink pre = null;
         MyLink curr = link;
+        MyLink temp = null;
         while (curr != null) {
-
+            temp = curr.next;
             curr.next = pre;
             pre = curr;
-
+            curr = temp;
         }
+        return pre;
     }
 
     public static void main(String[] args) {
@@ -36,22 +38,20 @@ public class ReverseLink {
         MyLink link1 = new MyLink(1, link2);
 
         MyLink link = link1;
-        while (link.next != null) {
+        while (link != null) {
             System.out.print(link.num + "->");
             link = link.next;
         }
 
-        System.out.println(link.num);
+        System.out.println();
 
-        ReverseLink.reverse(link1); //反转链表
+        MyLink newlink = ReverseLink.reverse(link1); //反转链表
 
-        link = link1;
-        while (link.next != null) {
-            System.out.print(link.num + "->");
-            link = link.next;
+        while (newlink != null) {
+            System.out.print(newlink.num + "->");
+            newlink = newlink.next;
         }
 
-        System.out.println(link.num);
-
+        System.out.println();
     }
 }
