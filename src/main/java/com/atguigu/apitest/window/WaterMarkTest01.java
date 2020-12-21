@@ -3,6 +3,7 @@ package com.atguigu.apitest.window;
 import com.atguigu.apitest.beans.SensorReading;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.streaming.api.TimeCharacteristic;
+import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
@@ -12,6 +13,7 @@ import org.apache.flink.streaming.api.functions.timestamps.AscendingTimestampExt
 import org.apache.flink.streaming.api.functions.timestamps.BoundedOutOfOrdernessTimestampExtractor;
 import org.apache.flink.streaming.api.watermark.Watermark;
 import org.apache.flink.streaming.api.windowing.time.Time;
+import org.apache.flink.util.OutputTag;
 
 import javax.annotation.Nullable;
 
@@ -41,15 +43,31 @@ public class WaterMarkTest01 {
             }
         });
 
+        /*
         SingleOutputStreamOperator<SensorReading> m2 = map.assignTimestampsAndWatermarks(new AscendingTimestampExtractor<SensorReading>() {
             @Override
             public long extractAscendingTimestamp(SensorReading sensorReading) {
                 return sensorReading.getTimestamp() * 1000L;
             }
         });
+         */
+
+        OutputTag<SensorReading> myoutput = new OutputTag<SensorReading>("late") {
+        };
+
+        SingleOutputStreamOperator<SensorReading> result = m1.keyBy("id")
+                .timeWindow(Time.seconds(15))
+                .allowedLateness(Time.minutes(1))
+                .sideOutputLateData(myoutput)
+                .minBy("temperature");
+
+        result.print("result");
+
+        DataStream<SensorReading> late = result.getSideOutput(myoutput);
+        late.print("late");
 
 
-        map.print();
+//        map.print();
 
         env.execute();
     }
