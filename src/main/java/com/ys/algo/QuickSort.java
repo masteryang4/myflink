@@ -6,6 +6,10 @@ import java.util.Arrays;
  * 快速排序
  * 双指针法 + 递归
  * https://blog.csdn.net/lkp1603645756/article/details/85008715
+ * 右侧先行，why？
+ * - 因为从小到大排序，右侧找小的，这种情况就要右侧主导
+ * - 右侧主导，右侧先行，指针相遇时也一定会停在小于index值的地方
+ * 可用“6 1 2 7 9”进行模拟
  */
 
 public class QuickSort {
