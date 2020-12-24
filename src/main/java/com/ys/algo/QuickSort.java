@@ -5,6 +5,7 @@ import java.util.Arrays;
 /**
  * 快速排序
  * 双指针法 + 递归
+ * https://blog.csdn.net/lkp1603645756/article/details/85008715
  */
 
 public class QuickSort {
