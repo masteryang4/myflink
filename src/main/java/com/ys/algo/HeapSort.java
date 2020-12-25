@@ -16,7 +16,7 @@ public class HeapSort {
             if (rchild < length && arr[rchild] > arr[lchild]) {
                 lchild++;
             }
-            if (temp > arr[lchild]) {
+            if (temp > arr[lchild]) {  //[notice]
                 break;
             }
             arr[parent] = arr[lchild];
