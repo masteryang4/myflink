@@ -29,7 +29,6 @@ public class Example_Test {
 
         Table table = streamTableEnvironment.fromDataStream(map);
         Table tableapi_result = table.select("id,temperature").where("id='sensor_1'");
-//        tableapi_result.printSchema();
         streamTableEnvironment.toAppendStream(tableapi_result, Row.class).print("tableapi");
 
         //sql
