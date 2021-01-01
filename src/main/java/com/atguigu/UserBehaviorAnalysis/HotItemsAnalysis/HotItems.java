@@ -38,7 +38,7 @@ public class HotItems {
             }
         });
 
-        dataStream.filter(new FilterFunction<UserBehavior>() {
+        SingleOutputStreamOperator<ItemViewCount> ds = dataStream.filter(new FilterFunction<UserBehavior>() {
             @Override
             public boolean filter(UserBehavior userBehavior) throws Exception {
                 return userBehavior.getBehavior() == "pv" ? true : false;
@@ -47,6 +47,9 @@ public class HotItems {
                 .timeWindow(Time.hours(1), Time.minutes(5))
                 .aggregate(new MyAggregateFunction(), new MyWindowFuncion());
 
+
+
+        env.execute();
     }
 
     public static class MyAggregateFunction implements AggregateFunction<UserBehavior, Long, Long> {
