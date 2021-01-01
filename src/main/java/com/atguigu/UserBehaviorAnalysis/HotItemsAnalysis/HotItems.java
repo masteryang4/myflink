@@ -50,7 +50,7 @@ public class HotItems {
         SingleOutputStreamOperator<ItemViewCount> ds = dataStream.filter(new FilterFunction<UserBehavior>() {
             @Override
             public boolean filter(UserBehavior userBehavior) throws Exception {
-                return userBehavior.getBehavior() == "pv" ? true : false;
+                return "pv".equals(userBehavior.getBehavior())  ? true : false;
             }
         }).keyBy("itemId")
                 .timeWindow(Time.hours(1), Time.minutes(5))
