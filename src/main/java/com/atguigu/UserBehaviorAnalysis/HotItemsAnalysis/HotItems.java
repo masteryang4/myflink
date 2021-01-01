@@ -2,19 +2,28 @@ package com.atguigu.UserBehaviorAnalysis.HotItemsAnalysis;
 
 import com.atguigu.UserBehaviorAnalysis.HotItemsAnalysis.beans.ItemViewCount;
 import com.atguigu.UserBehaviorAnalysis.HotItemsAnalysis.beans.UserBehavior;
+import org.apache.commons.compress.utils.Lists;
 import org.apache.flink.api.common.functions.AggregateFunction;
 import org.apache.flink.api.common.functions.FilterFunction;
 import org.apache.flink.api.common.functions.MapFunction;
+import org.apache.flink.api.common.state.ListState;
+import org.apache.flink.api.common.state.ListStateDescriptor;
 import org.apache.flink.api.java.tuple.Tuple;
+import org.apache.flink.configuration.Configuration;
 import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
+import org.apache.flink.streaming.api.functions.KeyedProcessFunction;
 import org.apache.flink.streaming.api.functions.timestamps.AscendingTimestampExtractor;
 import org.apache.flink.streaming.api.functions.windowing.WindowFunction;
 import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.streaming.api.windowing.windows.TimeWindow;
 import org.apache.flink.util.Collector;
+
+import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.Comparator;
 
 
 public class HotItems {
@@ -47,9 +56,11 @@ public class HotItems {
                 .timeWindow(Time.hours(1), Time.minutes(5))
                 .aggregate(new MyAggregateFunction(), new MyWindowFuncion());
 
+        ds.keyBy("windowEnd")
+                .process(new MykeyFunc())
+                .print();
 
-
-        env.execute();
+        env.execute("hotItems");
     }
 
     public static class MyAggregateFunction implements AggregateFunction<UserBehavior, Long, Long> {
@@ -84,6 +95,53 @@ public class HotItems {
             long windowEnd = window.getEnd();
 
             out.collect(new ItemViewCount(itemId, windowEnd, count));
+        }
+    }
+
+    public static class MykeyFunc extends KeyedProcessFunction<Tuple, ItemViewCount, String> {
+
+        ListState<ItemViewCount> list = null;
+
+        @Override
+        public void open(Configuration parameters) throws Exception {
+            list = getRuntimeContext().getListState(new ListStateDescriptor<ItemViewCount>("mylist", ItemViewCount.class));
+        }
+
+        @Override
+        public void processElement(ItemViewCount value, Context ctx, Collector<String> out) throws Exception {
+            list.add(value);
+            ctx.timerService().registerEventTimeTimer(value.getWindowEnd() + 1L);
+        }
+
+        @Override
+        public void onTimer(long timestamp, OnTimerContext ctx, Collector<String> out) throws Exception {
+
+            ArrayList<ItemViewCount> itemViewCounts = Lists.newArrayList(list.get().iterator());
+            itemViewCounts.sort(new Comparator<ItemViewCount>() {
+                @Override
+                public int compare(ItemViewCount o1, ItemViewCount o2) {
+                    return (int) (o2.getCount() - o1.getCount());
+                }
+            });
+            // 将排名信息格式化成String，方便打印输出
+            StringBuilder resultBuilder = new StringBuilder();
+            resultBuilder.append("===================================\n");
+            resultBuilder.append("窗口结束时间：").append(new Timestamp(timestamp - 1)).append("\n");
+
+            // 遍历列表，取top n输出
+            for (int i = 0; i < Math.min(5, itemViewCounts.size()); i++) {
+                ItemViewCount currentItemViewCount = itemViewCounts.get(i);
+                resultBuilder.append("NO ").append(i + 1).append(":")
+                        .append(" 商品ID = ").append(currentItemViewCount.getItemId())
+                        .append(" 热门度 = ").append(currentItemViewCount.getCount())
+                        .append("\n");
+            }
+            resultBuilder.append("===============================\n\n");
+
+            // 控制输出频率
+            Thread.sleep(1000L);
+
+            out.collect(resultBuilder.toString());
         }
     }
 }
