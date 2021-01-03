@@ -64,7 +64,6 @@ public class HotItems {
     }
 
     public static class MyAggregateFunction implements AggregateFunction<UserBehavior, Long, Long> {
-
         @Override
         public Long createAccumulator() {
             return 0L;
@@ -87,7 +86,6 @@ public class HotItems {
     }
 
     public static class MyWindowFuncion implements WindowFunction<Long, ItemViewCount, Tuple, TimeWindow> {
-
         @Override
         public void apply(Tuple tuple, TimeWindow window, Iterable<Long> input, Collector<ItemViewCount> out) throws Exception {
             Long itemId = tuple.getField(0);
@@ -99,7 +97,6 @@ public class HotItems {
     }
 
     public static class MykeyFunc extends KeyedProcessFunction<Tuple, ItemViewCount, String> {
-
         ListState<ItemViewCount> list = null;
 
         @Override
