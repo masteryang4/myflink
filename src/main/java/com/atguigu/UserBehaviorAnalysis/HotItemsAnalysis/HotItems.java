@@ -129,6 +129,7 @@ public class HotItems {
             ctx.timerService().registerEventTimeTimer(value.getWindowEnd() + 1);
         }
 
+        //【重点】定时器按时间区分！！！
         @Override
         public void onTimer(long timestamp, OnTimerContext ctx, Collector<String> out) throws Exception {
 
