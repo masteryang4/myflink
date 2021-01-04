@@ -69,7 +69,7 @@ public class HotItems {
             public boolean filter(UserBehavior userBehavior) throws Exception {
                 return "pv".equals(userBehavior.getBehavior()) ? true : false;
             }
-        }).keyBy("itemId")
+        }).keyBy("itemId")//【注意】keyby基于hashcode重分区
                 .timeWindow(Time.hours(1), Time.minutes(5))
                 .aggregate(new MyAggregateFunction(), new MyWindowFuncion());
         //增量聚合（效率高-流处理）结合全窗口聚合（信息多，只拿到增量聚合的结果数据）
