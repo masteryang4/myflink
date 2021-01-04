@@ -55,6 +55,8 @@ public class HotItems {
         }).keyBy("itemId")
                 .timeWindow(Time.hours(1), Time.minutes(5))
                 .aggregate(new MyAggregateFunction(), new MyWindowFuncion());
+        //增量聚合（效率高-流处理）结合全窗口聚合（信息多，只拿到增量聚合的结果数据）
+        //reduce函数 前后类型不能改变，输入输出都是一个类型
 
         ds.keyBy("windowEnd")
                 .process(new MykeyFunc())
