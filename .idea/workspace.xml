@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fb24dff-c3a5-4a40-8959-2c006aa00461" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItemsSQL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,25 +27,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+            <state relative-caret-position="132">
+              <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1419#1643#0" expanded="true" />
-                <element signature="e#1642#1643#0" expanded="true" />
-                <element signature="e#2386#2387#0" expanded="true" />
-                <element signature="e#2421#2422#0" expanded="true" />
-                <element signature="e#2505#2506#0" expanded="true" />
-                <element signature="e#2540#2541#0" expanded="true" />
-                <element signature="e#2603#2604#0" expanded="true" />
-                <element signature="e#2638#2639#0" expanded="true" />
-                <element signature="e#2708#2709#0" expanded="true" />
-                <element signature="e#2743#2744#0" expanded="true" />
-                <element signature="e#5089#5090#0" expanded="true" />
-                <element signature="e#5163#5164#0" expanded="true" />
+                <element signature="e#3100#3324#0" expanded="true" />
+                <element signature="e#3323#3324#0" expanded="true" />
+                <element signature="e#4185#4186#0" expanded="true" />
+                <element signature="e#4218#4219#0" expanded="true" />
+                <element signature="e#4302#4303#0" expanded="true" />
+                <element signature="e#4342#4343#0" expanded="true" />
+                <element signature="e#4405#4406#0" expanded="true" />
+                <element signature="e#4441#4442#0" expanded="true" />
+                <element signature="e#4511#4512#0" expanded="true" />
+                <element signature="e#4554#4555#0" expanded="true" />
+                <element signature="e#6047#6048#0" expanded="true" />
+                <element signature="e#6131#6132#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItemsSQL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2922#3146#0" expanded="true" />
+                <element signature="e#3145#3146#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,6 +158,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/beans/UserBehavior.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItemsSQL.java" />
       </list>
     </option>
   </component>
@@ -422,6 +437,9 @@
       <recent name="D:\develop\FlinkTutorial\src\main\java\com\atguigu\UserBehaviorAnalysis\HotItemsAnalysis\beans" />
       <recent name="D:\develop\FlinkTutorial\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.UserBehaviorAnalysis.HotItemsAnalysis" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.atguigu.apitest.processfunction" />
     </key>
@@ -438,7 +456,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HotItems">
+  <component name="RunManager" selected="Application.HotItemsSQL">
     <configuration name="Example_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.apitest.tableapi.Example_Test" />
       <module name="FlinkTutorial" />
@@ -478,12 +496,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyedStateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.apitest.state.KeyedStateTest" />
+    <configuration name="HotItemsSQL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.UserBehaviorAnalysis.HotItemsAnalysis.HotItemsSQL" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.apitest.state.*" />
+          <option name="PATTERN" value="com.atguigu.UserBehaviorAnalysis.HotItemsAnalysis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -506,11 +524,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HotItemsSQL" />
         <item itemvalue="Application.HotItems" />
         <item itemvalue="Application.Example_Test" />
         <item itemvalue="Application.Test01KeyedProcessFunction" />
         <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.KeyedStateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -529,12 +547,12 @@
       <workItem from="1608449453435" duration="38957000" />
       <workItem from="1608968924553" duration="7450000" />
       <workItem from="1609145492263" duration="11731000" />
-      <workItem from="1609488877172" duration="14826000" />
+      <workItem from="1609488877172" duration="16845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95371000" />
+    <option name="totallyTimeSpent" value="97390000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,7 +567,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17974514" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17974514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -558,12 +576,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2733711" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3371105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19688386" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19688386" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
@@ -914,22 +932,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        <state relative-caret-position="132">
+          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1419#1643#0" expanded="true" />
-            <element signature="e#1642#1643#0" expanded="true" />
-            <element signature="e#2386#2387#0" expanded="true" />
-            <element signature="e#2421#2422#0" expanded="true" />
-            <element signature="e#2505#2506#0" expanded="true" />
-            <element signature="e#2540#2541#0" expanded="true" />
-            <element signature="e#2603#2604#0" expanded="true" />
-            <element signature="e#2638#2639#0" expanded="true" />
-            <element signature="e#2708#2709#0" expanded="true" />
-            <element signature="e#2743#2744#0" expanded="true" />
-            <element signature="e#5089#5090#0" expanded="true" />
-            <element signature="e#5163#5164#0" expanded="true" />
+            <element signature="e#3100#3324#0" expanded="true" />
+            <element signature="e#3323#3324#0" expanded="true" />
+            <element signature="e#4185#4186#0" expanded="true" />
+            <element signature="e#4218#4219#0" expanded="true" />
+            <element signature="e#4302#4303#0" expanded="true" />
+            <element signature="e#4342#4343#0" expanded="true" />
+            <element signature="e#4405#4406#0" expanded="true" />
+            <element signature="e#4441#4442#0" expanded="true" />
+            <element signature="e#4511#4512#0" expanded="true" />
+            <element signature="e#4554#4555#0" expanded="true" />
+            <element signature="e#6047#6048#0" expanded="true" />
+            <element signature="e#6131#6132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItemsSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2922#3146#0" expanded="true" />
+            <element signature="e#3145#3146#0" expanded="true" />
           </folding>
         </state>
       </provider>
