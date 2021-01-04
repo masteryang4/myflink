@@ -107,7 +107,7 @@ public class HotItems {
         @Override
         public void processElement(ItemViewCount value, Context ctx, Collector<String> out) throws Exception {
             list.add(value);
-            ctx.timerService().registerEventTimeTimer(value.getWindowEnd() + 1L);
+            ctx.timerService().registerEventTimeTimer(value.getWindowEnd() + 1);
         }
 
         @Override
