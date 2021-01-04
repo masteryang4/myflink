@@ -6,6 +6,7 @@ import org.apache.commons.compress.utils.Lists;
 import org.apache.flink.api.common.functions.AggregateFunction;
 import org.apache.flink.api.common.functions.FilterFunction;
 import org.apache.flink.api.common.functions.MapFunction;
+import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.api.common.state.ListState;
 import org.apache.flink.api.common.state.ListStateDescriptor;
 import org.apache.flink.api.java.tuple.Tuple;
@@ -19,11 +20,14 @@ import org.apache.flink.streaming.api.functions.timestamps.AscendingTimestampExt
 import org.apache.flink.streaming.api.functions.windowing.WindowFunction;
 import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.streaming.api.windowing.windows.TimeWindow;
+import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer011;
 import org.apache.flink.util.Collector;
+
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.Properties;
 
 
 public class HotItems {
@@ -33,6 +37,19 @@ public class HotItems {
         env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
 
         DataStreamSource<String> dataStreamSource = env.readTextFile("D:\\develop\\FlinkTutorial\\src\\main\\resources\\UserBehavior.csv");
+
+        //kakfa做为数据源
+        /*
+        Properties properties = new Properties();
+
+        properties.setProperty("bootstrap.servers", "localhost:9092");
+        properties.setProperty("group.id", "consumer");
+        properties.setProperty("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
+        properties.setProperty("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
+        properties.setProperty("auto.offset.reset", "latest");
+
+        env.addSource(new FlinkKafkaConsumer011<String>("hotitems", new SimpleStringSchema(), properties));
+         */
 
         SingleOutputStreamOperator<UserBehavior> dataStream = dataStreamSource.map(new MapFunction<String, UserBehavior>() {
             @Override
@@ -50,7 +67,7 @@ public class HotItems {
         SingleOutputStreamOperator<ItemViewCount> ds = dataStream.filter(new FilterFunction<UserBehavior>() {
             @Override
             public boolean filter(UserBehavior userBehavior) throws Exception {
-                return "pv".equals(userBehavior.getBehavior())  ? true : false;
+                return "pv".equals(userBehavior.getBehavior()) ? true : false;
             }
         }).keyBy("itemId")
                 .timeWindow(Time.hours(1), Time.minutes(5))
