@@ -47,7 +47,7 @@ public class Tencent_PCG_Algo {
         int i = 0, j = 0;
         while (i <= j && j < n) {
             cnt[a[j]]++;
-            if (a[j] != 0){
+            if (a[j] != 0) {
                 set.add(a[j]);
             }
             if (set.size() >= m) {
@@ -59,7 +59,6 @@ public class Tencent_PCG_Algo {
                 }
                 if (res == -1 || j - i + 1 < res) res = j - i + 1;
             }
-            // System.out.println(i+"---"+j);
             j++;
         }
         return res;
