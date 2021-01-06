@@ -3,6 +3,7 @@ package com.ys.algo;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 /**
  * 小Q在进行射击气球的游戏，如果小Q在连续T枪中打爆了所有颜色的气球，将得到一只QQ公仔作为奖励。（每种颜色的球至少被打爆一只）。
@@ -40,8 +41,28 @@ import java.util.Scanner;
 public class Tencent_PCG_Algo {
 
     public static int mySearch(int[] a, int n, int m) {
-
-        return 0;
+        int[] cnt = new int[m + 1];
+        Set<Integer> set = new HashSet<>();
+        int res = -1;
+        int i = 0, j = 0;
+        while (i <= j && j < n) {
+            cnt[a[j]]++;
+            if (a[j] != 0){
+                set.add(a[j]);
+            }
+            if (set.size() >= m) {
+                while (i < j) {
+                    if (a[i] != 0 && cnt[a[i]] == 1)
+                        break;
+                    cnt[a[i]]--;
+                    i++;
+                }
+                if (res == -1 || j - i + 1 < res) res = j - i + 1;
+            }
+            // System.out.println(i+"---"+j);
+            j++;
+        }
+        return res;
     }
 
     public static void main(String[] args) {
