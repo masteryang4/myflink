@@ -59,6 +59,7 @@ public class Tencent_PCG_Algo {
                 }
                 if (res == -1 || j - i + 1 < res) res = j - i + 1;
             }
+
             j++;
         }
         return res;
