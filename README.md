@@ -9,6 +9,6 @@
 
 - Data structure and algorithm
 
-# Ather
+# Others
 
 >kafka : https://www.processon.com/mindmap/5ff578075653bb4ea20e7e57

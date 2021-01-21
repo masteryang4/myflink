@@ -128,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo/HDCKLeetCode76.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="80" column="31" lean-forward="true" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+              <caret line="80" column="52" lean-forward="true" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2488#2489#0" expanded="true" />
@@ -553,12 +553,12 @@
       <workItem from="1609145492263" duration="11731000" />
       <workItem from="1609488877172" duration="38829000" />
       <workItem from="1610617930241" duration="3847000" />
-      <workItem from="1610978994229" duration="9337000" />
+      <workItem from="1610978994229" duration="9678000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132558000" />
+    <option name="totallyTimeSpent" value="132899000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -571,7 +571,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21462107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -582,12 +581,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29461756" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29461756" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25070822" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27053824" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
@@ -970,7 +969,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo/HDCKLeetCode76.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="80" column="31" lean-forward="true" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+          <caret line="80" column="52" lean-forward="true" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2488#2489#0" expanded="true" />
