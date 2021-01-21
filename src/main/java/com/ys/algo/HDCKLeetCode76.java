@@ -56,7 +56,7 @@ public class HDCKLeetCode76 {
             }
 
             while (valid == need.size()) {
-                len = valid;
+                len = right - left;
                 char l_ch = s_chars[left];
                 left++;
                 if (need.containsKey(l_ch)) {
@@ -69,15 +69,13 @@ public class HDCKLeetCode76 {
                     }
                 }
             }
-
         }
-
         start = left - 1;
 
         System.out.println("=======>>>");
 //        String s1 = new String();
         System.out.println(start + "," + len);
-        for (int i = start; i <= start + len; i++) {
+        for (int i = start; i < start + len; i++) {
             System.out.print(s_chars[i]);
         }
 
