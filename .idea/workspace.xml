@@ -112,12 +112,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo/HDCKLeetCode76.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="72" column="25" lean-forward="true" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+            <state relative-caret-position="216">
+              <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2488#2489#0" expanded="true" />
-                <element signature="e#2534#2535#0" expanded="true" />
+                <element signature="e#2683#2684#0" expanded="true" />
+                <element signature="e#2732#2733#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -434,15 +434,15 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\develop\FlinkTutorial\src\main\java\com\atguigu\UserBehaviorAnalysis\HotItemsAnalysis\beans" />
-      <recent name="D:\develop\FlinkTutorial\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atguigu.apitest.processfunction" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.atguigu.UserBehaviorAnalysis.HotItemsAnalysis" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.atguigu.apitest.processfunction" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\FlinkTutorial\src\main\java\com\atguigu\UserBehaviorAnalysis\HotItemsAnalysis\beans" />
+      <recent name="D:\develop\FlinkTutorial\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -550,12 +550,12 @@
       <workItem from="1609145492263" duration="11731000" />
       <workItem from="1609488877172" duration="38829000" />
       <workItem from="1610617930241" duration="3847000" />
-      <workItem from="1610978994229" duration="10817000" />
+      <workItem from="1610978994229" duration="11794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134038000" />
+    <option name="totallyTimeSpent" value="135015000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -579,7 +579,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23937677" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30169973" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -966,12 +966,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo/HDCKLeetCode76.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="72" column="25" lean-forward="true" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+        <state relative-caret-position="216">
+          <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2488#2489#0" expanded="true" />
-            <element signature="e#2534#2535#0" expanded="true" />
+            <element signature="e#2683#2684#0" expanded="true" />
+            <element signature="e#2732#2733#0" expanded="true" />
           </folding>
         </state>
       </provider>

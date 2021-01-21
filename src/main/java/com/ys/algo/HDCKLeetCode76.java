@@ -67,13 +67,13 @@ public class HDCKLeetCode76 {
                 char l_ch = s_chars[left];
                 left++;
                 if (need.containsKey(l_ch)) {
-                    window.put(l_ch, window.get(l_ch) - 1);
-                    if (window.get(l_ch) < need.get(l_ch)) {
+                    if (window.get(l_ch) == need.get(l_ch)) {
                         valid--;
-                        if (window.get(l_ch) == 0) {
-                            window.remove(l_ch);
-                        }
                     }
+                    window.put(l_ch, window.get(l_ch) - 1);
+//                        if (window.get(l_ch) == 0) {
+//                            window.remove(l_ch);
+//                        }
                 }
             }
         }
