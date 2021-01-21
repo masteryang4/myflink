@@ -5,7 +5,6 @@ import java.util.Map;
 
 /**
  * s: "ADOBECODEBANC",
- * <p>
  * t: "ABC"
  */
 
