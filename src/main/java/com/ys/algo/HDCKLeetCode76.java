@@ -9,7 +9,7 @@ import java.util.Map;
  */
 
 /**
- * 【注意】方法：有实例带入是最好的
+ * 【注意】方法：有实例带入最好
  */
 
 public class HDCKLeetCode76 {
@@ -35,7 +35,7 @@ public class HDCKLeetCode76 {
         int right = 0;
         int valid = 0;
         int start = 0;
-        int len = 0;
+        int len = Integer.MAX_VALUE;
         while (right < s.length()) {
             char ch = s_chars[right];
             right++;
@@ -46,6 +46,7 @@ public class HDCKLeetCode76 {
                 }
             }
 
+            /* debug 专用
             System.out.println("window---------->>>");
             for (Map.Entry<Character, Integer> characterIntegerEntry : window.entrySet()) {
                 System.out.println(characterIntegerEntry.getKey() + "," + characterIntegerEntry.getValue());
@@ -54,9 +55,15 @@ public class HDCKLeetCode76 {
             for (Map.Entry<Character, Integer> entry : need.entrySet()) {
                 System.out.println(entry.getKey() + "," + entry.getValue());
             }
+             */
 
             while (valid == need.size()) {
-                len = right - left;
+                // 在这里更新最小覆盖子串
+                if (right - left < len) {
+                    start = left;
+                    len = right - left;
+                }
+
                 char l_ch = s_chars[left];
                 left++;
                 if (need.containsKey(l_ch)) {
@@ -70,11 +77,10 @@ public class HDCKLeetCode76 {
                 }
             }
         }
-        start = left - 1;
 
         System.out.println("=======>>>");
 //        String s1 = new String();
-        System.out.println(start + "," + len);
+//        System.out.println(start + "," + len);
         for (int i = start; i < start + len; i++) {
             System.out.print(s_chars[i]);
         }
