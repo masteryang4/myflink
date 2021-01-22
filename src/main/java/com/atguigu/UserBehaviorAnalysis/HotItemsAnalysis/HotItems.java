@@ -22,6 +22,7 @@ import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.streaming.api.windowing.windows.TimeWindow;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer011;
 import org.apache.flink.util.Collector;
+import org.apache.flink.util.OutputTag;
 
 
 import java.sql.Timestamp;
@@ -125,6 +126,7 @@ public class HotItems {
 
         @Override
         public void processElement(ItemViewCount value, Context ctx, Collector<String> out) throws Exception {
+//            ctx.output(new OutputTag<>("test"), null); //可以通过ctx把数据发送到不同的流中
             list.add(value);
             ctx.timerService().registerEventTimeTimer(value.getWindowEnd() + 1);
         }
