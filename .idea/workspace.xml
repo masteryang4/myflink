@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fb24dff-c3a5-4a40-8959-2c006aa00461" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems$MyAggregateFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems$MyAggregateFunction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems$MyWindowFuncion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems$MyWindowFuncion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems$MykeyFunc$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems$MykeyFunc$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems$MykeyFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems$MykeyFunc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/UserBehaviorAnalysis/HotItemsAnalysis/HotItems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="242">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -473,12 +463,12 @@
       <workItem from="1609145492263" duration="11731000" />
       <workItem from="1609488877172" duration="38829000" />
       <workItem from="1610617930241" duration="3847000" />
-      <workItem from="1610978994229" duration="18340000" />
+      <workItem from="1610978994229" duration="19807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141561000" />
+    <option name="totallyTimeSpent" value="143028000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -903,8 +893,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="242">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
         </state>
       </provider>
     </entry>

@@ -7,9 +7,14 @@ public class LinkReverse {
     public static void revese(LinkofMine l) {
         LinkofMine pre = null;
         LinkofMine curr = l;
+        LinkofMine next = null;
 
         while (curr != null) {
-
+//            System.out.println(curr.node);
+            next = curr.next;
+            curr.next = pre;
+            pre = curr;
+            curr = next;
         }
     }
 
