@@ -10,7 +10,7 @@ public class LinkReverse {
         LinkofMine next = null;
 
         while (curr != null) {
-            next = curr.next;
+            next = curr.next;//【悟】curr-当前节点要换next，所以要有一个变量单独记录他原本的next
             curr.next = pre;
             pre = curr;
             curr = next;
