@@ -10,7 +10,6 @@ public class LinkReverse {
         LinkofMine next = null;
 
         while (curr != null) {
-//            System.out.println(curr.node);
             next = curr.next;
             curr.next = pre;
             pre = curr;
