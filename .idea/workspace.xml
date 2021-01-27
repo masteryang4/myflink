@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fb24dff-c3a5-4a40-8959-2c006aa00461" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/algo01/SortQuick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ys/algo01/SortQuick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ys/algo01/SortQuick.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/SortQuick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="264">
+              <caret line="39" column="49" lean-forward="true" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -495,12 +494,12 @@
       <workItem from="1609145492263" duration="11731000" />
       <workItem from="1609488877172" duration="38829000" />
       <workItem from="1610617930241" duration="3847000" />
-      <workItem from="1610978994229" duration="32324000" />
+      <workItem from="1610978994229" duration="34096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155545000" />
+    <option name="totallyTimeSpent" value="157317000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -525,7 +524,7 @@
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24362606" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20113315" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -963,8 +962,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/SortQuick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="264">
+          <caret line="39" column="49" lean-forward="true" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
         </state>
       </provider>
     </entry>
