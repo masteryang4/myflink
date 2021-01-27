@@ -31,7 +31,7 @@ group by city;
 --优化
 select city, count(1)
 from (
-         select userid, city, count(1) as c
+         select userid, city
          from t_city
          group by userid, city --去重
      ) as a
