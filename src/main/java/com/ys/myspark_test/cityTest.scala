@@ -7,7 +7,7 @@ import scala.util.Random
 /**
   * 已知 一个 user_id , city 的一个实时日志，计算每个城市的pv和 uv？
   * 如果该日志数据量特别大，而且某些城市数据特别多，需要做哪些处理？
-  * （考察点：spark/have sql，计算逻辑及语法；热点处理；数据倾斜处理；）
+  * （考察点：spark/hive sql，计算逻辑及语法；热点处理；数据倾斜处理；）
   */
 object cityTest {
   def main(args: Array[String]): Unit = {
@@ -51,14 +51,13 @@ object cityTest {
      */
 
     println("uv============>>>")
-
     //防止数据倾斜的解法
     citylog.map(
       data => {
         val datas: Array[String] = data.split(",")
         ((datas(0), datas(1)), 1)
       }
-    ).reduceByKey(_ + _)
+    ).reduceByKey(_ + _)//去重
       .map(
         data => {
           (new Random().nextInt(10) + "_" + data._1._2, 1)
