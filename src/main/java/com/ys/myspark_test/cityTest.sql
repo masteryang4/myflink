@@ -23,7 +23,6 @@ from (
 group by 10_city
 ;
 
-
 --uv-----------
 select city, count(distinct userid)
 from t_city
