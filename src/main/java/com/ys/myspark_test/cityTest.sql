@@ -13,16 +13,6 @@ from t_city
 group by city;
 
 --数据倾斜版本
-select split(10_city, "_")[0] as city, sum(c)
-from (
-         select concat(city, '_', floor(rand() * 10) + 1) as 10_city,
-                count(1)                                  as c
-         from t_city
-         group by city
-     )
-group by 10_city
-;
-
 --[常用方法]开启参数，两阶段MR，解决group by数据倾斜
 set hive.groupby.skewindata = true;
 /*
