@@ -13,7 +13,18 @@ from t_city
 group by city;
 
 --数据倾斜版本
---[常用方法]开启参数，两阶段MR，解决group by数据倾斜
+--伪代码
+select split(10_city, "_")[0] as city, sum(c)
+from (
+         select concat(city, '_', floor(rand() * 10) + 1) as 10_city,
+                count(1)                                  as c
+         from t_city
+         group by concat(city, '_', floor(rand() * 10) + 1)
+     )
+group by city
+;
+
+--【常用方法】开启参数，两阶段MR，解决group by数据倾斜
 set hive.groupby.skewindata = true;
 /*
 当 sql 语句使用 groupby 时数据出现倾斜时，如果该变量设置为 true，那么 Hive 会自动进行 负载均衡。
