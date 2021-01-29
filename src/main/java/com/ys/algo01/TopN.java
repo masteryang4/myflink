@@ -15,7 +15,8 @@ import java.util.Arrays;
 public class TopN {
     //小顶堆
     public static void make_heap(int[] arr, int parent, int length) {
-        int flag = arr[parent];
+        int flag = arr[parent];  //不用flag也行，直接交换也可，见：SortHeapTest
+
         int left = 2 * parent + 1;
         while (left < length) {
             int right = left + 1;
@@ -44,6 +45,7 @@ public class TopN {
 
         System.out.println(Arrays.toString(k_arr));
 
+        //数组n依次进去与一个一个堆顶进行比较
         for (int j = k; j < arr.length - 1; j++) {
             if (arr[j] > k_arr[0]) {
                 k_arr[0] = arr[j];
