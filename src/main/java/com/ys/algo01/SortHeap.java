@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 /**
  * 没有捷径，就是实例一步一步往里带入
+ *
+ * 时间复杂度：O(nlogn)
+ * 空间复杂度：O(1)
  */
 public class SortHeap {
     //调整大顶堆
