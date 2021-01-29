@@ -47,7 +47,7 @@ public class HeapSort {
     }
 
     public static void main(String[] args) {
-        int[] a = {6, 1, 2, 7, 9, 8};
+        int[] a = {6, 1, 2, 7, 9, 8, 0, 5, 4, 3};
 
         for (int i : a) {
             System.out.print(i + " ");
