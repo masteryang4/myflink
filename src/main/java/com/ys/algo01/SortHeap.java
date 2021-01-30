@@ -42,6 +42,7 @@ public class SortHeap {
 
         int temp = 0;
         //交换首尾，重更新调整
+        //【悟】堆排序的交换阶段，其实就是相当于调整堆的最后一步。因为堆顶一下所有都是调整好的堆。
         for (int i = 0; i < arr.length - 1; i++) {
             temp = arr[0];
             arr[0] = arr[arr.length - 1 - i];
