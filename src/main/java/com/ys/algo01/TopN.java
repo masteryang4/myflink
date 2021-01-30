@@ -11,6 +11,9 @@ import java.util.Arrays;
  * <p>
  * 空间复杂度：O(k)
  * 时间复杂度：O(n * logk)
+ *
+ * 参考：https://zhuanlan.zhihu.com/p/76734219
+ * https://www.zhihu.com/search?type=content&q=topk
  */
 public class TopN {
     //小顶堆
