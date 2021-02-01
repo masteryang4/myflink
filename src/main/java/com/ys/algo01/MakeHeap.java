@@ -2,6 +2,9 @@ package com.ys.algo01;
 
 import java.util.Arrays;
 
+/**
+ * 创建大顶堆practice
+ */
 public class MakeHeap {
     public static void main(String[] args) {
         int[] arr = {6, 1, 2, 7, 9};
