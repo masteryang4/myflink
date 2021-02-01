@@ -36,7 +36,7 @@ public class SortQuick {
     }
 
     public static void main(String[] args) {
-        int[] arr = {6, 1, 2, 7, 9, 8};
+        int[] arr = {6, 1, 2, 7, 9};
         System.out.println(Arrays.toString(arr));
 
         quick_sort(arr, 0, arr.length - 1);
