@@ -7,6 +7,8 @@ import java.util.Arrays;
  *
  * 时间复杂度：O(nlogn)
  * 空间复杂度：O(1)
+ * 参考：https://blog.csdn.net/yuzhihui_no1/article/details/44258297
+ *       https://www.cnblogs.com/lylhome/p/13276081.html#example
  */
 public class SortHeap {
     //调整大顶堆
