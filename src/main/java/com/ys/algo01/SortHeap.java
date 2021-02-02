@@ -38,12 +38,14 @@ public class SortHeap {
 
     public static void heap_sort(int[] arr) {
         //构建大顶堆
+        //时间复杂度 O(n)
         for (int i = ((arr.length - 1) / 2); i >= 0; i--) {
             makeHeap(arr, i, arr.length);
         }
 
         int temp = 0;
-        //交换首尾，重更新调整
+        //交换首尾，重新调整  //时间复杂度  O(nlogn) /
+        //最终复杂度  O(n)+ O(nlogn) ~ O(nlogn)
         //【悟】堆排序的交换阶段，其实就是相当于调整堆的最后一步。因为堆顶以下所有都是调整好的堆。
         for (int i = 0; i < arr.length - 1; i++) {
             temp = arr[0];
