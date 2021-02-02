@@ -42,6 +42,7 @@ public class TopN {
         System.out.println(Arrays.toString(k_arr));
 
         //构建小顶堆
+        //时间复杂度 O(k)
         for (int i = (k_arr.length - 1) / 2; i >= 0; i--) {
             make_heap(k_arr, i, k_arr.length);
         }
@@ -49,7 +50,10 @@ public class TopN {
         System.out.println(Arrays.toString(k_arr));
 
         //数组n依次进去与一个一个堆顶进行比较
-        //【注意】堆排序的交换阶段，其实就是相当于调整堆的最后一步。因为堆顶一下所有都是调整好的堆。
+        //【注意】堆排序的交换阶段，其实就是相当于调整堆的最后一步。因为堆顶以下所有都是调整好的堆。
+
+        //时间复杂度  O(n*logk)
+        //logk其实可以看成是长度为k的堆的【高度】，也就是节点要操作的次数
         for (int j = k; j < arr.length - 1; j++) {
             if (arr[j] > k_arr[0]) {
                 k_arr[0] = arr[j];
