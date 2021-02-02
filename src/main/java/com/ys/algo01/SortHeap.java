@@ -38,7 +38,7 @@ public class SortHeap {
 
     public static void heap_sort(int[] arr) {
         //构建大顶堆
-        //时间复杂度 O(n)
+        //时间复杂度 O(n),长度为n，高度k，每一层（2^k-1）个节点，每个节点操作（k-i）次,i从1到k-1
         for (int i = ((arr.length - 1) / 2); i >= 0; i--) {
             makeHeap(arr, i, arr.length);
         }
