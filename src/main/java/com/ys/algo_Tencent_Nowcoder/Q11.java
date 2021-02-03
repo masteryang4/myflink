@@ -4,8 +4,10 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
+ * 输入：
  * 6
  * 4 3 1 6 2 5
+ * 输出：
  * 2
  */
 public class Q11 {
@@ -32,7 +34,6 @@ public class Q11 {
     public static int nsort_num(int[] arr, int size) {
         int left = 0;
         int right = 0;
-
 
 
         return left > right ? right : left;
