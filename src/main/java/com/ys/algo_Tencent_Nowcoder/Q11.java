@@ -6,7 +6,6 @@ import java.util.Scanner;
 /**
  * 6
  * 4 3 1 6 2 5
- * <p>
  * 2
  */
 public class Q11 {
