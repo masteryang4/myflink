@@ -17,6 +17,7 @@ import java.util.Arrays;
  *
  * [四种解法]https://blog.csdn.net/z50L2O08e2u4afToR9A/article/details/82837278
  * [最快解法]https://blog.csdn.net/z50L2O08e2u4afToR9A/article/details/82837280
+ * 共5种解法
  */
 public class TopN {
     //小顶堆
