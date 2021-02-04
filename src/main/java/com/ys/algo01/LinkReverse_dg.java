@@ -12,8 +12,7 @@ public class LinkReverse_dg {
         if (node == null || node.next == null) {
             return node;
         }
-
-        LinkofMine last = reverse_dg(node.next);
+        LinkofMine last = reverse_dg(node.next); //last一直就没变过
         node.next.next = node;
         node.next = null;
         return last;
