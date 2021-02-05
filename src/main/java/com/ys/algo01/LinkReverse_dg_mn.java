@@ -6,7 +6,7 @@ package com.ys.algo01;
 public class LinkReverse_dg_mn {
     private static LinkofMine realnext = null;
 
-    private static LinkofMine reverse_dg_n(LinkofMine node, int n) { //(m,n)是2维变量，先固定一个变量，从（1，n）一维变量开始
+    private static LinkofMine reverse_dg_n(LinkofMine node, int n) { //（m，n）是2维变量，先固定一个变量，从（1，n）一维变量开始
         if (n == 1) {
             realnext = node.next;
             return node;
