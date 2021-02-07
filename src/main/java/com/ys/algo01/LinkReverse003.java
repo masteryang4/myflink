@@ -2,7 +2,7 @@ package com.ys.algo01;
 
 public class LinkReverse003 {
 
-    private static LinkofMine reverse(LinkofMine node) {
+    private static LinkofMine reverse_diedai(LinkofMine node) {
         LinkofMine pre = null;
         LinkofMine curr = node;
         LinkofMine next = null;
@@ -29,7 +29,7 @@ public class LinkReverse003 {
         }
         System.out.println("==============>>>");
 
-        next = reverse(l1);
+        next = reverse_diedai(l1);
         while (next != null) {
             System.out.println(next.node);
             next = next.next;
