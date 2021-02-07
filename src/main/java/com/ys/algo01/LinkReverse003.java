@@ -38,6 +38,15 @@ public class LinkReverse003 {
         return head;
     }
 
+    private static LinkofMine reverse_digui_mn(LinkofMine node, int m, int n) {
+        if (m == 1) {
+            return reverse_digui_toN(node, n);
+        }
+        LinkofMine head = reverse_digui_mn(node.next, m - 1, n - 1);
+        node.next = head;
+        return node;
+    }
+
     public static void main(String[] args) {
         LinkofMine l6 = new LinkofMine(6, null);
         LinkofMine l5 = new LinkofMine(5, l6);
@@ -57,7 +66,9 @@ public class LinkReverse003 {
 
 //        next = reverse_digui(l1);
 
-        next = reverse_digui_toN(l1, 3);  //321 456
+//        next = reverse_digui_toN(l1, 3);  //321 456
+
+        next = reverse_digui_mn(l1, 2, 4);   //1 432 56
 
         while (next != null) {
             System.out.println(next.node);
