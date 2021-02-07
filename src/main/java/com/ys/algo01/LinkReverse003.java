@@ -12,7 +12,6 @@ public class LinkReverse003 {
             pre = curr;
             curr = next;
         }
-
         return pre;
     }
 
@@ -24,6 +23,19 @@ public class LinkReverse003 {
         node.next.next = node;
         node.next = null;
         return last;
+    }
+
+    private static LinkofMine next = null;
+
+    private static LinkofMine reverse_digui_toN(LinkofMine node, int n) {
+        if (n == 1) { //递归返回条件
+            next = node.next;
+            return node;
+        }
+        LinkofMine head = reverse_digui_toN(node.next, n - 1); //递归
+        node.next.next = node;
+        node.next = next;
+        return head;
     }
 
     public static void main(String[] args) {
@@ -43,7 +55,9 @@ public class LinkReverse003 {
 
 //        next = reverse_diedai(l1);
 
-        next = reverse_digui(l1);
+//        next = reverse_digui(l1);
+
+        next = reverse_digui_toN(l1, 3);  //321 456
 
         while (next != null) {
             System.out.println(next.node);
