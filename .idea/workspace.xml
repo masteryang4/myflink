@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fb24dff-c3a5-4a40-8959-2c006aa00461" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse_Kgroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,15 +46,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="682">
               <caret line="49" column="50" lean-forward="true" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/ReverseLink001.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -109,8 +101,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse003.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="55" column="27" lean-forward="true" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+            <state relative-caret-position="1254">
+              <caret line="72" column="46" lean-forward="true" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse_Kgroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -179,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse_dg.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse_dg_mn.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse003.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse_Kgroup.java" />
       </list>
     </option>
   </component>
@@ -429,7 +431,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkReverse003">
+  <component name="RunManager" selected="Application.LinkReverse_Kgroup">
     <configuration name="LinkReverse002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ys.algo01.LinkReverse002" />
       <module name="FlinkTutorial" />
@@ -445,6 +447,19 @@
     </configuration>
     <configuration name="LinkReverse003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ys.algo01.LinkReverse003" />
+      <module name="FlinkTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ys.algo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkReverse_Kgroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ys.algo01.LinkReverse_Kgroup" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
@@ -482,26 +497,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakeHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ys.algo01.MakeHeap" />
-      <module name="FlinkTutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ys.algo01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkReverse_Kgroup" />
         <item itemvalue="Application.LinkReverse003" />
         <item itemvalue="Application.LinkReverse_dg_mn" />
         <item itemvalue="Application.LinkReverse_dg" />
         <item itemvalue="Application.LinkReverse002" />
-        <item itemvalue="Application.MakeHeap" />
       </list>
     </recent_temporary>
   </component>
@@ -525,12 +527,12 @@
       <workItem from="1610978994229" duration="44791000" />
       <workItem from="1611849892970" duration="918000" />
       <workItem from="1611905539543" duration="44891000" />
-      <workItem from="1612531578148" duration="12253000" />
+      <workItem from="1612531578148" duration="15799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226074000" />
+    <option name="totallyTimeSpent" value="229620000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -545,7 +547,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21313673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21313673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -554,12 +556,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24504249" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20254958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23371105" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28470254" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
@@ -584,13 +586,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.12/1.10.1/flink-streaming-java_2.12-1.10.1.jar!/org/apache/flink/streaming/api/functions/timestamps/BoundedOutOfOrdernessTimestampExtractor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.12/1.10.1/flink-streaming-java_2.12-1.10.1.jar!/org/apache/flink/streaming/api/functions/timestamps/AscendingTimestampExtractor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -989,10 +984,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse_Kgroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse003.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="55" column="27" lean-forward="true" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+        <state relative-caret-position="1254">
+          <caret line="72" column="46" lean-forward="true" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
         </state>
       </provider>
     </entry>
