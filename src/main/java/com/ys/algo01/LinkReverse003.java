@@ -47,6 +47,24 @@ public class LinkReverse003 {
         return node;
     }
 
+    /**
+     * 反转区间 [a, b) 的元素，注意是左闭右开
+     * [注意]reverse_diedai 其实就是反转 a到null 的元素。
+     */
+    private static LinkofMine reverse_diedai_ab(LinkofMine a, LinkofMine b) {
+        LinkofMine pre = null;
+        LinkofMine cur = a;
+        LinkofMine nxt = a;
+        while (cur != b) {
+            nxt = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = nxt;
+        }
+        a.next = b; //反转后的链表和原链表拼接
+        return pre;
+    }
+
     public static void main(String[] args) {
         LinkofMine l6 = new LinkofMine(6, null);
         LinkofMine l5 = new LinkofMine(5, l6);
@@ -68,7 +86,9 @@ public class LinkReverse003 {
 
 //        next = reverse_digui_toN(l1, 3);  //321 456
 
-        next = reverse_digui_mn(l1, 2, 4);   //1 432 56
+//        next = reverse_digui_mn(l1, 2, 4);   //1 432 56
+
+        next = reverse_diedai_ab(l1, l5);  //4321 56
 
         while (next != null) {
             System.out.println(next.node);
