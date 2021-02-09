@@ -48,8 +48,8 @@ public class LinkReverse003 {
     }
 
     /**
-     * 反转区间 [a, b) 的元素，注意是左闭右开
-     * [注意]reverse_diedai 其实就是反转 a到null 的元素。
+     * 【迭代】反转区间 [a, b) 的元素，注意是左闭右开
+     * 【注】reverse_diedai 其实就是反转 a到null 的元素。
      */
     private static LinkofMine reverse_diedai_ab(LinkofMine a, LinkofMine b) {
         LinkofMine pre = null;
@@ -61,7 +61,8 @@ public class LinkReverse003 {
             pre = cur;
             cur = nxt;
         }
-        a.next = b; //反转后的链表和原链表拼接
+        a.next = b; //反转后的链表和原链表（从b开始的部分）拼接。
+        //a之前的部分可以通过参数传进来
         return pre;
     }
 
