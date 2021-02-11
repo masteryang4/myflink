@@ -6,7 +6,7 @@ package com.ys.algo01;
  */
 public class LinkBianli {
 
-    private static void bianli_reverse(LinkofMine l1) {
+    private static void bianli_reverse(LinkofMine l1) { //反向遍历（递归）
         if (l1 == null) {
             return;
         }
@@ -23,7 +23,7 @@ public class LinkBianli {
         LinkofMine l1 = new LinkofMine(1, l2);
 
         LinkofMine next = l1;
-        while (next != null) {
+        while (next != null) { //正向遍历（迭代）
             System.out.println(next.node);
             next = next.next;
         }
