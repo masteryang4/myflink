@@ -1,5 +1,8 @@
 package com.ys.algo01;
 
+/**
+ * 迭代、递归（mTon）反转链表
+ */
 public class LinkReverse003 {
 
     private static LinkofMine reverse_diedai(LinkofMine node) {
