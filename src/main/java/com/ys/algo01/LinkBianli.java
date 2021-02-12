@@ -23,10 +23,12 @@ public class LinkBianli {
         LinkofMine l1 = new LinkofMine(1, l2);
 
         LinkofMine next = l1;
+
         while (next != null) { //正向遍历（迭代）
             System.out.println(next.node);
             next = next.next;
         }
+
         System.out.println("==============>>>");
 
         bianli_reverse(l1);
