@@ -4,6 +4,7 @@ package com.ys.algo01.mytree;
  * 遍历二叉树（递归）
  * 左序、中序、后序
  * 【递归思维】
+ * [参考]二叉树递归相关的问题，都可以参考[三个节点]的二叉树
  */
 public class BianliTree {
     public static void main(String[] args) {
