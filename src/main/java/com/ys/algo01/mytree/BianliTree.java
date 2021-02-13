@@ -1,5 +1,10 @@
 package com.ys.algo01.mytree;
 
+/**
+ * 遍历二叉树（递归）
+ * 左序、中序、后序
+ * 【递归思维】
+ */
 public class BianliTree {
     public static void main(String[] args) {
         MyTree t1 = new MyTree(1);
