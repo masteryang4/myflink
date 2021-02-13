@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fb24dff-c3a5-4a40-8959-2c006aa00461" name="Default Changelist" comment="" />
+    <list default="true" id="4fb24dff-c3a5-4a40-8959-2c006aa00461" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/algo01/PalindromeLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,11 +77,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkBianli.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state relative-caret-position="312">
+              <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/PalindromeLink.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -106,15 +118,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
               <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/Cricle_Link.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -177,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverseKgroup001.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse003.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkBianli.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/PalindromeLink.java" />
       </list>
     </option>
   </component>
@@ -427,7 +431,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkBianli">
+  <component name="RunManager" selected="Application.PalindromeLink">
     <configuration name="LinkBianli" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ys.algo01.LinkBianli" />
       <module name="FlinkTutorial" />
@@ -480,8 +484,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkReverse_dg_mn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ys.algo01.LinkReverse_dg_mn" />
+    <configuration name="PalindromeLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ys.algo01.PalindromeLink" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
@@ -495,11 +499,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromeLink" />
         <item itemvalue="Application.LinkBianli" />
         <item itemvalue="Application.LinkReverseKgroup001" />
         <item itemvalue="Application.LinkReverse_Kgroup" />
         <item itemvalue="Application.LinkReverse003" />
-        <item itemvalue="Application.LinkReverse_dg_mn" />
       </list>
     </recent_temporary>
   </component>
@@ -523,12 +527,12 @@
       <workItem from="1610978994229" duration="44791000" />
       <workItem from="1611849892970" duration="918000" />
       <workItem from="1611905539543" duration="44891000" />
-      <workItem from="1612531578148" duration="24248000" />
+      <workItem from="1612531578148" duration="26760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238069000" />
+    <option name="totallyTimeSpent" value="240581000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -552,12 +556,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2875354" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28611898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23796034" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23796034" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
@@ -582,13 +586,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.12/1.10.1/flink-streaming-java_2.12-1.10.1-sources.jar!/org/apache/flink/streaming/api/functions/AssignerWithPeriodicWatermarks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="50" column="58" lean-forward="true" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.12/1.10.1/flink-streaming-java_2.12-1.10.1-sources.jar!/org/apache/flink/streaming/api/functions/timestamps/AscendingTimestampExtractor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -966,13 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse003.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -989,8 +979,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkBianli.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="312">
+          <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse003.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/PalindromeLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
         </state>
       </provider>
     </entry>
