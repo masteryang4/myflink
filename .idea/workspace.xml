@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fb24dff-c3a5-4a40-8959-2c006aa00461" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/BianliTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/CountTreeNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,15 +50,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/MakeHeap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-88">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse_dg_mn.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -95,15 +85,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/BianliTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+            <state relative-caret-position="220">
+              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding>
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#1481#1482#0" expanded="true" />
+                <element signature="e#1515#1516#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/CountTreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -186,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkBianli.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/PalindromeLink.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/BianliTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/CountTreeNode.java" />
       </list>
     </option>
   </component>
@@ -459,9 +459,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BianliTree">
+  <component name="RunManager" selected="Application.CountTreeNode">
     <configuration name="BianliTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ys.algo01.mytree.BianliTree" />
+      <module name="FlinkTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ys.algo01.mytree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountTreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ys.algo01.mytree.CountTreeNode" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
@@ -499,19 +512,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkReverse_Kgroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ys.algo01.LinkReverse_Kgroup" />
-      <module name="FlinkTutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ys.algo01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PalindromeLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ys.algo01.PalindromeLink" />
       <module name="FlinkTutorial" />
@@ -527,11 +527,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountTreeNode" />
         <item itemvalue="Application.BianliTree" />
         <item itemvalue="Application.PalindromeLink" />
         <item itemvalue="Application.LinkBianli" />
         <item itemvalue="Application.LinkReverseKgroup001" />
-        <item itemvalue="Application.LinkReverse_Kgroup" />
       </list>
     </recent_temporary>
   </component>
@@ -555,12 +555,12 @@
       <workItem from="1610978994229" duration="44791000" />
       <workItem from="1611849892970" duration="918000" />
       <workItem from="1611905539543" duration="44891000" />
-      <workItem from="1612531578148" duration="30573000" />
+      <workItem from="1612531578148" duration="31411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244394000" />
+    <option name="totallyTimeSpent" value="245232000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,8 +573,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21313673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21313673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -588,7 +589,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23796034" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23796034" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
@@ -613,13 +614,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.12/1.10.1/flink-streaming-java_2.12-1.10.1-sources.jar!/org/apache/flink/streaming/api/functions/timestamps/BoundedOutOfOrdernessTimestampExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="70" column="67" lean-forward="true" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/apitest/processfunction/MyKeyProcess.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/apitest/window/WaterMarkTest01.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1020,12 +1014,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/BianliTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        <state relative-caret-position="220">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding>
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/CountTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
         </state>
       </provider>
     </entry>
