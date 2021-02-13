@@ -32,12 +32,12 @@ public class BianliTree {
     }
 
     private static void zuoxu_bianli(MyTree root) {
-        if (root == null) {
+        if (root == null) { //返回条件
             return;
         }
-        System.out.print(root.value + " ");
-        zuoxu_bianli(root.left);
-        zuoxu_bianli(root.right);
+        System.out.print(root.value + " "); //打印根节点
+        zuoxu_bianli(root.left); //左序遍历左子树
+        zuoxu_bianli(root.right); //左序遍历右子树
     }
 
     private static void zhongxu_bianli(MyTree root) {

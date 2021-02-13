@@ -7,10 +7,10 @@ package com.ys.algo01.mytree;
 public class CountTreeNode {
 
     private static int count_node(MyTree root) {
-        if (root == null) {
+        if (root == null) { //返回条件
             return 0;
         }
-        return 1 + count_node(root.left) + count_node(root.right);
+        return 1 + count_node(root.left) + count_node(root.right); //根节点数（1）+左子树节点数+右子树节点数
     }
 
     public static void main(String[] args) {
