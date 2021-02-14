@@ -6,6 +6,8 @@ import java.util.Queue;
 /**
  * LeetCode654.【构造】最大二叉树
  * https://labuladong.gitbook.io/algo/shu-ju-jie-gou-xi-lie/shou-ba-shou-shua-er-cha-shu-xun-lian-di-gui-si-wei/er-cha-shu-xi-lie-2
+ * [完整版]https://mp.weixin.qq.com/s/OlpaDhPDTJlQ5MJ8tsARlA
+ * 和快排有点类似
  */
 public class MakeMaxTree {
     public static void main(String[] args) {
