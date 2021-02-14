@@ -3,6 +3,7 @@ package com.ys.algo01.mytree;
 /**
  * LeetCode114.
  * 将二叉树转换成链表
+ * 【递归思维】
  *       1              1
  *      / \             \
  *     2  5     ==>      2
@@ -24,7 +25,7 @@ public class TreeToLink {
         treetolink(root.left);
         treetolink(root.right);
 
-        //【后序遍历】先将左右子树转化成链表再进行操作
+        //【后序遍历】先将左右子树转化成链表再进行之后的操作
         MyTree left = root.left;
         MyTree right = root.right;
 
