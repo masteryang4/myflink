@@ -5,6 +5,7 @@ import java.util.Queue;
 
 /**
  * LeetCode654.【构造】最大二叉树
+ * https://labuladong.gitbook.io/algo/shu-ju-jie-gou-xi-lie/shou-ba-shou-shua-er-cha-shu-xun-lian-di-gui-si-wei/er-cha-shu-xi-lie-2
  */
 public class MakeMaxTree {
     public static void main(String[] args) {
@@ -15,7 +16,7 @@ public class MakeMaxTree {
     }
 
     private static MyTree makemaxtree(int[] arr, int left, int right) {
-        if (left > right) {
+        if (left > right) { //base case
             return null;
         }
         int maxval = Integer.MIN_VALUE;
