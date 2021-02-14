@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fb24dff-c3a5-4a40-8959-2c006aa00461" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/ConnectTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/TreeToLink.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ys/algo01/mytree/BianliTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ys/algo01/mytree/BianliTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ys/algo01/mytree/MyTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ys/algo01/mytree/MyTree.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -95,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/ReverseTreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+            <state relative-caret-position="44">
+              <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/ConnectTreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="968">
+              <caret line="65" column="36" lean-forward="true" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#695#696#0" expanded="true" />
@@ -118,20 +116,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/Cricle_Link.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/TreeToLink.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+            <state relative-caret-position="394">
+              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse_Kgroup.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/Cricle_Link.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="22">
+              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -207,6 +205,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/ReverseTreeNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/BianliTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/ConnectTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/TreeToLink.java" />
       </list>
     </option>
   </component>
@@ -401,6 +400,18 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ys" type="462c0819:PsiDirectoryNode" />
               <item name="algo01" type="462c0819:PsiDirectoryNode" />
+              <item name="mytree" type="462c0819:PsiDirectoryNode" />
+              <item name="ConnectTreeNode.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="FlinkTutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkTutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ys" type="462c0819:PsiDirectoryNode" />
+              <item name="algo01" type="462c0819:PsiDirectoryNode" />
               <item name="LinkReverse.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
@@ -480,7 +491,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConnectTreeNode">
+  <component name="RunManager" selected="Application.TreeToLink">
     <configuration name="BianliTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ys.algo01.mytree.BianliTree" />
       <module name="FlinkTutorial" />
@@ -520,19 +531,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ys.algo01.PalindromeLink" />
-      <module name="FlinkTutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ys.algo01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReverseTreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ys.algo01.mytree.ReverseTreeNode" />
       <module name="FlinkTutorial" />
@@ -546,13 +544,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeToLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ys.algo01.mytree.TreeToLink" />
+      <module name="FlinkTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ys.algo01.mytree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeToLink" />
         <item itemvalue="Application.ConnectTreeNode" />
         <item itemvalue="Application.ReverseTreeNode" />
         <item itemvalue="Application.CountTreeNode" />
         <item itemvalue="Application.BianliTree" />
-        <item itemvalue="Application.PalindromeLink" />
       </list>
     </recent_temporary>
   </component>
@@ -576,12 +587,12 @@
       <workItem from="1610978994229" duration="44791000" />
       <workItem from="1611849892970" duration="918000" />
       <workItem from="1611905539543" duration="44891000" />
-      <workItem from="1612531578148" duration="40764000" />
+      <workItem from="1612531578148" duration="43233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254585000" />
+    <option name="totallyTimeSpent" value="257054000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -605,12 +616,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24645892" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28328612" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.20679887" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24787535" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
@@ -635,16 +646,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/apitest/state/OperatorStateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/apitest/state/KeyedStateTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
@@ -1040,25 +1041,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/ConnectTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="65" column="36" lean-forward="true" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/ReverseTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        <state relative-caret-position="44">
+          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/ConnectTreeNode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/TreeToLink.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="394">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
         </state>
       </provider>
     </entry>
