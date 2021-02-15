@@ -51,7 +51,7 @@ public class RepeatSubTree {
 
         Integer num = strmap.getOrDefault(mytree, 0);
 
-        if (num == 1) {
+        if (num == 1) { //map里面已经有一个了，说明现在这个是重复的，直接加入list即可。大于1的我们只统计，不加入list（会重复）
             nodelist.add(root.value);
         }
         strmap.put(mytree, num + 1);
