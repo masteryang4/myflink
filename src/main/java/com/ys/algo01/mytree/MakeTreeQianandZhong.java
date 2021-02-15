@@ -4,10 +4,13 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
+ * https://mp.weixin.qq.com/s/OlpaDhPDTJlQ5MJ8tsARlA
+ * <p>
  * LeetCode105.
  * 通过前序和中序遍历结果【构造】二叉树
  * 1.前序遍历的的第一个数就是根节点
  * 2.通过中序遍历找到的根节点的索引，就可以确定其左子树和右子树的长度
+ * （两个条件缺一不可）
  * <p>
  * 构造二叉树：
  * 找到根节点，对其左子树、右子树进行递归
