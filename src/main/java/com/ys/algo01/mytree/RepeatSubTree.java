@@ -47,7 +47,7 @@ public class RepeatSubTree {
         String leftstr = tree_toString(root.left);
         String rightstr = tree_toString(root.right);
 
-        String mytree = leftstr + "," + rightstr + "," + root.value;//整个树的序列化，描述了【自己是什么样子】
+        String mytree = leftstr + "," + rightstr + "," + root.value;//树的序列化，描述了【自己是什么样子】
 
         Integer num = strmap.getOrDefault(mytree, 0);
 
