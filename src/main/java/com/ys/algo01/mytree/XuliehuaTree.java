@@ -88,7 +88,7 @@ public class XuliehuaTree {
 //        System.out.println(mytree); //[1, 2, 4, #, #, 5, #, #, 3, #, 6, #, #]
 
         MyTree root = fanxuliehua("1, 2, 4, #, #, 5, #, #, 3, #, 6, #, #");
-//        System.out.println(root.value); //1
+        System.out.println(root.value); //1
 
         List<String> xuliehua = xuliehua(root);
         System.out.println(xuliehua); //[1, 2, 4, #, #, 5, #, #, 3, #, 6, #, #]

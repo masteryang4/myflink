@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4fb24dff-c3a5-4a40-8959-2c006aa00461" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/XuliehuaTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/XuliehuaTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -118,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/XuliehuaTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="61" column="38" lean-forward="true" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+            <state relative-caret-position="80">
+              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -209,8 +210,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/MakeTreeMid_Back.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/MakeMaxTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/RepeatSubTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/XuliehuaTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/MakeHeapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/XuliehuaTree.java" />
       </list>
     </option>
   </component>
@@ -593,12 +594,12 @@
       <workItem from="1611849892970" duration="918000" />
       <workItem from="1611905539543" duration="44891000" />
       <workItem from="1612531578148" duration="65623000" />
-      <workItem from="1613453850849" duration="18312000" />
+      <workItem from="1613453850849" duration="19405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297756000" />
+    <option name="totallyTimeSpent" value="298849000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -610,10 +611,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2077748" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2077748" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -622,12 +623,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.23087819" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.25637394" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29886687" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932975" weight="0.22379604" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49932975" visible="true" weight="0.22379604" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.24787535" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
@@ -1067,8 +1068,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/XuliehuaTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="61" column="38" lean-forward="true" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+        <state relative-caret-position="80">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
