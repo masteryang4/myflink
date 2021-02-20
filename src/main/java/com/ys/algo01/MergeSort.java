@@ -13,23 +13,21 @@ public class MergeSort {
         int l = left;
         int m = mid + 1;
         int k = 0;
-        while (l <= mid && m <= right) {
+        while (l <= mid && m <= right) { //先把小的放tmp里面
             if (arr[l] < arr[m]) {
                 tmp[k++] = arr[l++];
             } else {
                 tmp[k++] = arr[m++];
             }
         }
-        while (l <= mid) {
+        while (l <= mid) { //剩余的拼接到tmp中
             tmp[k++] = arr[l++];
         }
         while (m <= right) {
             tmp[k++] = arr[m++];
         }
-//        System.out.println("tmp=" + Arrays.toString(tmp));
-//        System.out.println("arr=" + Arrays.toString(arr));
-
-        for (int i = 0; i < tmp.length; i++) {  //【注意】tmp的长度不一定等于arr
+        //tmp赋值回arr
+        for (int i = 0; i < tmp.length; i++) {  //【注意】tmp的长度不一定等于arr，所以arr[i + left]
             arr[i + left] = tmp[i];
         }
     }
