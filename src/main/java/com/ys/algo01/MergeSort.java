@@ -8,12 +8,13 @@ import java.util.Arrays;
  */
 public class MergeSort {
 
+    //【整个过程相当于将一段数字拿出来，在外面排好序，再复制回去】
     private static void merge(int[] arr, int left, int mid, int right) {//arr,0,2,4
         int[] tmp = new int[right - left + 1]; //【注意】
         int l = left;
         int m = mid + 1;
         int k = 0;
-        while (l <= mid && m <= right) { //先把小的放tmp里面
+        while (l <= mid && m <= right) { //先把小的放tmp里面，本质是【双指针】法
             if (arr[l] < arr[m]) {
                 tmp[k++] = arr[l++];
             } else {
