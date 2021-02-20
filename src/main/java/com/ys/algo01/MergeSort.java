@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class MergeSort {
 
     private static void merge(int[] arr, int left, int mid, int right) {//arr,0,2,4
-        int[] tmp = new int[right - left + 1];
+        int[] tmp = new int[right - left + 1]; //【注意】
         int l = left;
         int m = mid + 1;
         int k = 0;
