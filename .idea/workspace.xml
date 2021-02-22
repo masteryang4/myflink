@@ -494,7 +494,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSort001">
+  <component name="RunManager">
     <configuration name="MakeHeapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ys.algo01.mytree.MakeHeapTest" />
       <module name="FlinkTutorial" />
@@ -534,8 +534,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ys.algo01.QuickSort001" />
+    <configuration name="RealMySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ys.algo01.RealMySort" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
@@ -562,7 +562,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuickSort001" />
+        <item itemvalue="Application.RealMySort" />
         <item itemvalue="Application.MySort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.XuliehuaTree" />
