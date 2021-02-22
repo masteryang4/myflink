@@ -6,8 +6,21 @@ public class QuickSort001 {
     public static void main(String[] args) {
         int[] arr = {6, 1, 2, 7, 9, 8};
         System.out.println(Arrays.toString(arr));
-        quicksort(arr, 0, arr.length - 1);
+//        quicksort(arr, 0, arr.length - 1);
+        bubblesort(arr);
         System.out.println(Arrays.toString(arr));
+    }
+
+    private static void bubblesort(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = 0; j < arr.length - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    int tmp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = tmp;
+                }
+            }
+        }
     }
 
     private static void quicksort(int[] arr, int left, int right) {
