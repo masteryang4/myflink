@@ -19,11 +19,22 @@ public class MyReverseLink {
         System.out.println();
         System.out.println("==============>>>");
 
-        next = reverse_diedai(l1);
+//        next = reverse_diedai(l1);
+        next = reverse_digui(l1);
         while (next != null) {
             System.out.print(next.node + " ");
             next = next.next;
         }
+    }
+
+    private static LinkofMine reverse_digui(LinkofMine root) {
+        if (root.next == null) { //base case
+            return root;
+        }
+        LinkofMine newHead = reverse_digui(root.next);
+        root.next.next = root;
+        root.next = null;
+        return newHead;
     }
 
     private static LinkofMine reverse_diedai(LinkofMine node) {
