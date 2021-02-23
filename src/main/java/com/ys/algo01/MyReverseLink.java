@@ -19,12 +19,46 @@ public class MyReverseLink {
         System.out.println();
         System.out.println("==============>>>");
 
-//        next = reverse_diedai(l1);
-        next = reverse_digui(l1);
+//        next = reverse_diedai(l1); //1 2 3 4 5 6
+//        next = reverse_digui(l1); //1 2 3 4 5 6
+//        next = reverse_diedai_atob(l2, l5); //4 3 2
+        next = reverse_kgroup(l1, 2); //2 1 4 3 6 5
+
         while (next != null) {
             System.out.print(next.node + " ");
             next = next.next;
         }
+    }
+
+    private static LinkofMine reverse_kgroup(LinkofMine node, int k) {
+        if (node == null) {
+            return null;
+        }
+        LinkofMine b = node;
+        int i = k;
+        while (i > 0) {
+            if (b == null) {
+                return node;
+            }
+            b = b.next;
+            i--;
+        }
+        LinkofMine newHead = reverse_diedai_atob(node, b);
+
+        node.next = reverse_kgroup(b, k);
+        return newHead;
+    }
+
+    private static LinkofMine reverse_diedai_atob(LinkofMine l2, LinkofMine l5) { //左闭右开
+        LinkofMine pre = null;
+        LinkofMine curr = l2;
+        while (curr != l5) {
+            LinkofMine nxt = curr.next;
+            curr.next = pre;
+            pre = curr;
+            curr = nxt;
+        }
+        return pre;
     }
 
     private static LinkofMine reverse_digui(LinkofMine root) {
