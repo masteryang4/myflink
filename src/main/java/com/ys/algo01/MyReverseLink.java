@@ -24,16 +24,20 @@ public class MyReverseLink {
 //        next = reverse_diedai_atob(l2, l5); //4 3 2
 //        next = reverse_kgroup(l1, 2); //2 1 4 3 6 5
 //        next = reverse_ton(l1, 4); //4321 56
-        next = reverse_mton(2, 5); //1 5432 6
+        next = reverse_mton(l1, 2, 5); //1 5432 6
+
         while (next != null) {
             System.out.print(next.node + " ");
             next = next.next;
         }
     }
 
-    private static LinkofMine reverse_mton(int m, int n) {
-
-        return null;
+    private static LinkofMine reverse_mton(LinkofMine l1, int m, int n) {
+        if (m == 1) {
+            return reverse_ton(l1, n);
+        }
+        l1.next = reverse_mton(l1.next, m - 1, n - 1);
+        return l1;
     }
 
     private static LinkofMine nxt = null;
