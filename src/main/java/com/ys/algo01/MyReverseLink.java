@@ -1,5 +1,12 @@
 package com.ys.algo01;
 
+/**
+ * 反转链表练习
+ * 包含：
+ * 1.反转全链表：迭代，递归
+ * 2.k个一组反转链表
+ * 3.从1到n，以及从m到n，反转链表
+ */
 public class MyReverseLink {
 
     public static void main(String[] args) {
@@ -32,6 +39,12 @@ public class MyReverseLink {
         }
     }
 
+    /**
+     * @param l1
+     * @param m
+     * @param n
+     * @return
+     */
     private static LinkofMine reverse_mton(LinkofMine l1, int m, int n) {
         if (m == 1) {
             return reverse_ton(l1, n);
@@ -54,6 +67,11 @@ public class MyReverseLink {
         return newHead;
     }
 
+    /**
+     * @param node
+     * @param k
+     * @return
+     */
     private static LinkofMine reverse_kgroup(LinkofMine node, int k) {
         if (node == null) {
             return null;
@@ -85,6 +103,10 @@ public class MyReverseLink {
         return pre;
     }
 
+    /**
+     * @param root
+     * @return
+     */
     private static LinkofMine reverse_digui(LinkofMine root) {
         if (root.next == null) { //base case
             return root;
