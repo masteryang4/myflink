@@ -22,12 +22,32 @@ public class MyReverseLink {
 //        next = reverse_diedai(l1); //1 2 3 4 5 6
 //        next = reverse_digui(l1); //1 2 3 4 5 6
 //        next = reverse_diedai_atob(l2, l5); //4 3 2
-        next = reverse_kgroup(l1, 2); //2 1 4 3 6 5
-
+//        next = reverse_kgroup(l1, 2); //2 1 4 3 6 5
+//        next = reverse_ton(l1, 4); //4321 56
+        next = reverse_mton(2, 5); //1 5432 6
         while (next != null) {
             System.out.print(next.node + " ");
             next = next.next;
         }
+    }
+
+    private static LinkofMine reverse_mton(int m, int n) {
+
+        return null;
+    }
+
+    private static LinkofMine nxt = null;
+
+    private static LinkofMine reverse_ton(LinkofMine l1, int n) {
+        if (n == 1) {
+            nxt = l1.next;
+            return l1;
+        }
+        LinkofMine newHead = reverse_ton(l1.next, n - 1);
+        l1.next.next = l1;
+        l1.next = nxt;
+
+        return newHead;
     }
 
     private static LinkofMine reverse_kgroup(LinkofMine node, int k) {
