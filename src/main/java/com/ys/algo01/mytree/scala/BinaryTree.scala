@@ -3,7 +3,7 @@ package com.ys.algo01.mytree.scala
 /**
   * 定义二叉树，前序、中序、后序遍历，前序、中序、后序查找，删除节点
   */
-class BinaryTree {
+object BinaryTree {
   var root: TreeNode = null
 
   //后序遍历
