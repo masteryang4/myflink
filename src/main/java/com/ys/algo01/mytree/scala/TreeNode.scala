@@ -2,18 +2,19 @@ package com.ys.algo01.mytree.scala
 
 /**
   * 定义节点以及前序、中序、后序遍历
+  *
   * @param treeNo
   */
-class TreeNode(treeNo:Int){
+class TreeNode(treeNo: Int) {
 
   val no = treeNo
-  var left:TreeNode = null
-  var right:TreeNode = null
+  var left: TreeNode = null
+  var right: TreeNode = null
 
   //后序遍历
-  def postOrder():Unit={
+  def postOrder(): Unit = {
     //向左递归输出左子树
-    if(this.left != null){
+    if (this.left != null) {
       this.left.postOrder
     }
     //向右递归输出右子树
@@ -22,18 +23,18 @@ class TreeNode(treeNo:Int){
     }
 
     //输出当前节点值
-    printf("节点信息 no=%d \n",no)
+    printf("节点信息 no=%d \n", no)
   }
 
   //中序遍历
-  def infixOrder():Unit={
+  def infixOrder(): Unit = {
     //向左递归输出左子树
-    if(this.left != null){
+    if (this.left != null) {
       this.left.infixOrder()
     }
 
     //输出当前节点值
-    printf("节点信息 no=%d \n",no)
+    printf("节点信息 no=%d \n", no)
 
     //向右递归输出右子树
     if (this.right != null) {
@@ -42,12 +43,12 @@ class TreeNode(treeNo:Int){
   }
 
   //前序遍历
-  def preOrder():Unit={
+  def preOrder(): Unit = {
     //输出当前节点值
-    printf("节点信息 no=%d \n",no)
+    printf("节点信息 no=%d \n", no)
 
     //向左递归输出左子树
-    if(this.left != null){
+    if (this.left != null) {
       this.left.postOrder()
     }
 
@@ -58,9 +59,9 @@ class TreeNode(treeNo:Int){
   }
 
   //后序遍历查找
-  def postOrderSearch(no:Int): TreeNode = {
+  def postOrderSearch(no: Int): TreeNode = {
     //向左递归输出左子树
-    var resNode:TreeNode = null
+    var resNode: TreeNode = null
     if (this.left != null) {
       resNode = this.left.postOrderSearch(no)
     }
@@ -81,10 +82,10 @@ class TreeNode(treeNo:Int){
   }
 
   //中序遍历查找
-  def infixOrderSearch(no:Int): TreeNode = {
+  def infixOrderSearch(no: Int): TreeNode = {
 
 
-    var resNode : TreeNode = null
+    var resNode: TreeNode = null
     //先向左递归查找
     if (this.left != null) {
       resNode = this.left.infixOrderSearch(no)
@@ -105,17 +106,17 @@ class TreeNode(treeNo:Int){
   }
 
   //前序查找
-  def preOrderSearch(no:Int): TreeNode = {
+  def preOrderSearch(no: Int): TreeNode = {
     if (no == this.no) {
       return this
     }
     //向左递归查找
-    var resNode : TreeNode = null
+    var resNode: TreeNode = null
     if (this.left != null) {
       resNode = this.left.preOrderSearch(no)
     }
-    if (resNode != null){
-      return  resNode
+    if (resNode != null) {
+      return resNode
     }
     //向右边递归查找
     if (this.right != null) {
@@ -130,7 +131,7 @@ class TreeNode(treeNo:Int){
   //1如果删除的节点是叶子节点，则删除该节点
   //2如果删除的节点是非叶子节点，则删除该子树
 
-  def delNode(no:Int): Unit = {
+  def delNode(no: Int): Unit = {
     //首先比较当前节点的左子节点是否为要删除的节点
     if (this.left != null && this.left.no == no) {
       this.left = null
