@@ -14,7 +14,7 @@ public class RealMySort {
     }
 
     /**
-     *
+     * 归并排序 时间复杂度O(nlogn)，空间复杂度O(n)
      * @param arr
      * @param left
      * @param right
