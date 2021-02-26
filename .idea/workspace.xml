@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fb24dff-c3a5-4a40-8959-2c006aa00461" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/algo01/Tencent/WX.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/algo01/Tencent/WX.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/algo01/Tencent/WX01.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4fb24dff-c3a5-4a40-8959-2c006aa00461" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,8 +71,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/Tencent/WX01.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="198">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding>
+                <element signature="e#49#80#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ys/algo/Tencent_PCG_Algo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/apitest/processfunction/Test01KeyedProcessFunction.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo/HDCKLeetCode76.java" />
@@ -205,6 +202,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/Tencent/PCG_SlideWIndow.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/Tencent/WX.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/Tencent/WX.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/Tencent/WX01.scala" />
       </list>
     </option>
   </component>
@@ -494,16 +492,17 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\develop\FlinkTutorial\src\main\java\com\atguigu\UserBehaviorAnalysis\HotItemsAnalysis\beans" />
-      <recent name="D:\develop\FlinkTutorial\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atguigu.apitest.processfunction" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ys.algo01" />
       <recent name="com.atguigu.UserBehaviorAnalysis.HotItemsAnalysis" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.atguigu.apitest.processfunction" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\FlinkTutorial\src\main\java\com\ys\algo01\Tencent" />
+      <recent name="D:\develop\FlinkTutorial\src\main\java\com\atguigu\UserBehaviorAnalysis\HotItemsAnalysis\beans" />
+      <recent name="D:\develop\FlinkTutorial\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -616,12 +615,12 @@
       <workItem from="1611905539543" duration="44891000" />
       <workItem from="1612531578148" duration="65623000" />
       <workItem from="1613453850849" duration="30645000" />
-      <workItem from="1613976509412" duration="28785000" />
+      <workItem from="1613976509412" duration="29062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338874000" />
+    <option name="totallyTimeSpent" value="339151000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -636,7 +635,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20710456" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20710456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -650,7 +649,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49865952" visible="true" weight="0.20679887" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49865952" visible="true" weight="0.20679887" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" weight="0.22379604" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
@@ -1070,8 +1069,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/Tencent/WX01.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="198">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="e#49#80#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
