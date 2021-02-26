@@ -1,7 +1,5 @@
 package com.ys.algo01.Tencent;
 
-import org.apache.flink.table.expressions.In;
-
 import java.util.HashSet;
 import java.util.Scanner;
 
