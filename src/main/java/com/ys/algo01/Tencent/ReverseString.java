@@ -14,7 +14,7 @@ package com.ys.algo01.Tencent;
  * 参考思路：
  * //还需要对输入进行校验，是否是正确的日期
  */
-public class ReverseInt {
+public class ReverseString {
     public static void main(String[] args) {
 
     }
