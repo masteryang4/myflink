@@ -47,15 +47,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/scala/TreeNode.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1144">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/myspark_test/WordCount.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,15 +61,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/scala/BinaryTree.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -191,9 +173,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/QuickSort001.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/MyReverseLink.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/RealMySort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/scala/TreeNode.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/scala/BinaryTree.scala" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/myspark_test/WordCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/scala/BinaryTree.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/scala/TreeNode.scala" />
       </list>
     </option>
   </component>
@@ -594,12 +576,12 @@
       <workItem from="1611905539543" duration="44891000" />
       <workItem from="1612531578148" duration="65623000" />
       <workItem from="1613453850849" duration="30645000" />
-      <workItem from="1613976509412" duration="26330000" />
+      <workItem from="1613976509412" duration="27557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336419000" />
+    <option name="totallyTimeSpent" value="337646000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1032,17 +1014,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/scala/BinaryTree.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/scala/TreeNode.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="286">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/scala/TreeNode.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/mytree/scala/BinaryTree.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1144">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state>
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
         </state>
       </provider>
     </entry>
