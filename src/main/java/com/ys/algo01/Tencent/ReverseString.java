@@ -51,11 +51,11 @@ public class ReverseString {
             return false;
         }
         int reverseI = 0;
-        HashSet<Integer> set = new HashSet<>();
+        HashSet<Integer> set = new HashSet<>(); //集合用来放除0以外的数字
 
         while (i > reverseI) {
             reverseI = reverseI * 10 + i % 10;
-            if (i % 10 != 0) {
+            if (i % 10 != 0) { //把i（其实只是i的后一半）的最后一位放到set里面
                 set.add(i % 10);
             }
 
