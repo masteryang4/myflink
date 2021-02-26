@@ -1,5 +1,8 @@
 package com.ys.algo01.Tencent;
 
+import org.apache.flink.table.expressions.In;
+
+import java.util.HashSet;
 import java.util.Scanner;
 
 /**
@@ -19,26 +22,63 @@ import java.util.Scanner;
  * 【参考】
  * https://blog.csdn.net/plokmju88/article/details/104151665
  * labuladong 反转链表 也有涉及
- * 回文字符串，回文数字，回文链表
+ * 回文字符串（1.判断：双指针往中间移动。2.寻找：从中间往两边移动），
+ * 回文数字，回文链表
  * 其实都是LeetCode题目
  */
 public class ReverseString {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in); //20200202 21211212
+        Scanner sc = new Scanner(System.in); //20200202 21211212 21211234
         int i = sc.nextInt();
         System.out.println(i);
 
-        boolean ishw = ishuiwen(i);
-        System.out.println(ishw);
+//        boolean ishw = ishuiwen(i); //判断是否是回文日期（数字）
+//        System.out.println(ishw);
+
+        boolean isnum = isTiaojian(i); //判断是否满足两个条件
+        System.out.println(isnum);
+    }
+
+    /**
+     * 1.左右对称
+     * 2.除数字0外，只有一个非零数字
+     *
+     * @param i
+     * @return
+     */
+    private static boolean isTiaojian(int i) {
+        if (i % 10 == 0) { //末尾不能是0
+            return false;
+        }
+        int reverseI = 0;
+        HashSet<Integer> set = new HashSet<>();
+
+        while (i > reverseI) {
+            reverseI = reverseI * 10 + i % 10;
+            if (i % 10 != 0) {
+                set.add(i % 10);
+            }
+
+            i = i / 10;
+        }
+        System.out.println(i + " " + reverseI);
+        System.out.println(set);
+
+        if (i == reverseI && set.size() == 1) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     /**
      * 既然是数字，我们可以通过除法 / 和取余 % 的方式，将这个数字取出【后半段进行翻转】，然后比对两个数字的是否相等。
+     *
      * @param i
      * @return
      */
     private static boolean ishuiwen(int i) {
-        if (i % 10 == 0) {
+        if (i % 10 == 0) { //末尾不能是0
             return false;
         }
         int reverseI = 0;
