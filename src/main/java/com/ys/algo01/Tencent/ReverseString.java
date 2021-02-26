@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 /**
- * https://mp.weixin.qq.com/s/Cq--AMMDrkV89QXihJWu9w
+ * 题目：https://mp.weixin.qq.com/s/Cq--AMMDrkV89QXihJWu9w
  * <p>
  * 给一个日期：20200202
  * 观察这个日期，同时满足两个特征：
