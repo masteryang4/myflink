@@ -47,3 +47,42 @@ select year,
 from aaa
 group by year;
 
+-- info 表
+-- date result
+-- 2005-05-09 win
+-- 2005-05-09 lose
+-- 2005-05-09 lose
+-- 2005-05-09 lose
+-- 2005-05-10 win
+-- 2005-05-10 lose
+-- 2005-05-10 lose
+-- 如果要生成下列结果, 该如何写sql语句?
+--    　　    win lose
+-- 2005-05-09  2   2
+-- 2005-05-10  1   2
+-- 答案：
+--(1)
+select date,
+       sum(case when result = "win" then 1 else 0 end)  as
+           win,
+       sum(case when result = "lose" then 1 else 0 end) as
+           lose
+from info
+group by date;
+
+--(2)
+select a.date,
+       a.result as win,
+       b.result as lose
+from (select date
+           , count(result) as result
+      from info
+      where result = "win"
+      group by date) as a
+         join
+     (select date
+           , count(result) as result
+      from info
+      where result = "lose"
+      group by date) as b
+     on a.date = b.date;
