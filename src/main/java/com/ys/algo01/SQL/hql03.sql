@@ -46,4 +46,18 @@ group by shop
 
 --2  每个店铺访问次数top3的访客信息。输出店铺名称、访客id、访问次数
 
-
+select shop,
+       user_id,
+       ct
+from (select shop,
+             user_id,
+             ct,
+             rank() over (partition by shop order by ct) rk
+      from (select shop,
+                   user_id,
+                   count(*) ct
+            from visit
+            group by shop,
+                     user_id) t1
+     ) t2
+where rk <= 3;
