@@ -19,7 +19,8 @@ from order_tab
 where date_format(dt, 'yyyy') = '2017'
 group by date_format(dt, 'yyyy-MM');
 
--- 2）给出2017年11月的新客数(指在11月才有第一笔订单)
+-- 2）【重点】给出2017年11月的新客数(指在11月才有第一笔订单)
+
 --【重点】，但是是错误答案
 select count(user_id)
 from order_tab
@@ -46,9 +47,17 @@ from (
          from order_tab
          group by user_id
          having date_format(min(dt), 'yyyy-MM') = '2017-11'
-     ) as a
+     ) as a;
 --having date_format(min(dt), '%Y-%m') = '2017-11'  mysql版本
 -- having的作用：结合group by，对查询的结果进行过滤
+-- 更加规范的结果
+SELECT count(user_id)
+from (
+         select user_id
+         from order_tab
+         group by user_id
+         having date_format(min(dt), '%Y-%m') = '2017-11'
+     ) as a
 
 --========================================================================
 --【注意】where后里面不能嵌套min
