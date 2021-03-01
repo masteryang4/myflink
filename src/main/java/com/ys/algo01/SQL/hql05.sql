@@ -69,6 +69,8 @@ group by user_id; --去重
 
 
 -- 答案
+
+--注：活跃用户要两次去重，第一次一开始按用户和日期；第二次按用户和flag（可能有多次连续2次登录，只留一个就行）
 select sum(user_total_count),
        sum(user_total_avg_age),
        sum(twice_count),
