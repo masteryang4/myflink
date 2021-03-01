@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fb24dff-c3a5-4a40-8959-2c006aa00461" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/hql03.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/hql03.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/hql04.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,11 +62,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/hql03.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+            <state relative-caret-position="814">
+              <caret line="54" column="40" lean-forward="true" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/hql04.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -77,18 +87,6 @@
               <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
               <folding>
                 <element signature="e#872#915#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/Tencent/WX01.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="e#49#80#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/LinkReverse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/myspark_test/cityTest.scala" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/SortBubble.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/ReverseLink001.java" />
@@ -205,6 +202,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/hql02.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/Tencent/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/hql03.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/hql04.sql" />
       </list>
     </option>
   </component>
@@ -628,12 +626,12 @@
       <workItem from="1611905539543" duration="44891000" />
       <workItem from="1612531578148" duration="65623000" />
       <workItem from="1613453850849" duration="30645000" />
-      <workItem from="1613976509412" duration="47945000" />
+      <workItem from="1613976509412" duration="49097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="358034000" />
+    <option name="totallyTimeSpent" value="359186000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -687,16 +685,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo/Tencent_PCG_Algo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo_Tencent_Nowcoder/Q11.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1083,8 +1071,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/hql03.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+        <state relative-caret-position="814">
+          <caret line="54" column="40" lean-forward="true" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/hql04.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
         </state>
       </provider>
     </entry>
