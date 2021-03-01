@@ -27,8 +27,10 @@ group by user_id
 having date_format(min(dt), 'yyyy-MM') = '2017-11';
 
 --【注意】where后里面不能嵌套min
+
 -- select count(user_id)
 -- from order_tab
 -- group by user_id
 -- where date_format(min(dt), 'yyyy-MM') = '2017-11';
+
 -- where 会报错
