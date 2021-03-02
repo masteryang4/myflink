@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fb24dff-c3a5-4a40-8959-2c006aa00461" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/hql11.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/hql11.sql" afterDir="false" />
-    </list>
+    <list default="true" id="4fb24dff-c3a5-4a40-8959-2c006aa00461" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/hql11.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="110" column="11" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="11" />
+            <state relative-caret-position="88">
+              <caret line="116" column="14" lean-forward="true" selection-start-line="116" selection-start-column="14" selection-end-line="116" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -135,6 +132,7 @@
     <findStrings>
       <find>MyTree</find>
       <find>string</find>
+      <find>t1</find>
     </findStrings>
     <replaceStrings>
       <replace>MyTreeNode</replace>
@@ -622,12 +620,12 @@
       <workItem from="1613453850849" duration="30645000" />
       <workItem from="1613976509412" duration="59232000" />
       <workItem from="1614622331325" duration="931000" />
-      <workItem from="1614623316676" duration="5687000" />
+      <workItem from="1614623316676" duration="5939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="375939000" />
+    <option name="totallyTimeSpent" value="376191000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1067,8 +1065,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/hql11.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="110" column="11" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="11" />
+        <state relative-caret-position="88">
+          <caret line="116" column="14" lean-forward="true" selection-start-line="116" selection-start-column="14" selection-end-line="116" selection-end-column="14" />
         </state>
       </provider>
     </entry>

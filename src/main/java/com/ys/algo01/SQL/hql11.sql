@@ -117,6 +117,7 @@ select //第一层 找出第一个
        max(v2)
 from t2;
 
+--【注意】split的用法
 --     1、需求A:找出T1表中最大的版本号
 select v_id,//版本号
        max(split(v_id, ".")[0])                                  v1,//主版本不会为空
