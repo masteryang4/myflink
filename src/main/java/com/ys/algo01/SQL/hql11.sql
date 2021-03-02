@@ -16,7 +16,7 @@ create external table order
     row format delimited fields terminated by '\t';
 
 select count(order_id),
-       count(distinct (user_id)),
+       count(distinct user_id),
        sum(amount)
 from order
 where dt = "2018-09-01";
@@ -60,7 +60,7 @@ where t.rank < 3;
 select item_id,
        count(order_id) a
 from t_order
-where dataediff(create_time, current_date) <= 30
+where dataediff(create_time, current_date) <= 30 --【最近一个月】
 group by item_id
 order by a desc;
 
@@ -111,6 +111,7 @@ with t2 as (//转换
     from t1
              lateral view explode(v2) tmp as v2
 )
+
 select //第一层 找出第一个
        v1,
        max(v2)
