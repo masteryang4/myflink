@@ -1,3 +1,4 @@
+
 drop table if exists ads_continuity_uv_count;
 create external table ads_continuity_uv_count
 (
