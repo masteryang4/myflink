@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fb24dff-c3a5-4a40-8959-2c006aa00461" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4fb24dff-c3a5-4a40-8959-2c006aa00461" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,16 +65,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/dwd_dim_user_info_his.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-616">
-              <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+            <state relative-caret-position="-462">
+              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/ads_3weeks.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
@@ -193,10 +191,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/hql10.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/hql11.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/dwd_fact_order_info.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/dwd_dim_user_info_his.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/dwd_fact_coupon_use.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/ads_3day_in7day.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/ads_3weeks.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/dwd_dim_user_info_his.sql" />
       </list>
     </option>
   </component>
@@ -622,12 +620,12 @@
       <workItem from="1613453850849" duration="30645000" />
       <workItem from="1613976509412" duration="59232000" />
       <workItem from="1614622331325" duration="931000" />
-      <workItem from="1614623316676" duration="15561000" />
+      <workItem from="1614623316676" duration="16714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="385813000" />
+    <option name="totallyTimeSpent" value="386966000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -640,6 +638,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20576407" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1034,17 +1033,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/dwd_dim_user_info_his.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-616">
-          <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/dwd_fact_coupon_use.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-176">
           <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/ads_3weeks.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -1055,10 +1054,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/ads_3weeks.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/algo01/SQL/dwd_dim_user_info_his.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="-462">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
         </state>
       </provider>
     </entry>
