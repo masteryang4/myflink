@@ -7,7 +7,7 @@ package com.ys.algo01;
  * 2.k个一组反转链表
  * 3.从1到n，以及从m到n，反转链表
  */
-public class MyReverseLink {
+public class MyReverseLink_ZD {
 
     public static void main(String[] args) {
         LinkofMine l6 = new LinkofMine(6, null);
