@@ -2,7 +2,7 @@ package com.ys.algo01;
 
 import java.util.Arrays;
 
-public class RealMySort {
+public class RealMySort_ZD {
     public static void main(String[] args) {
         int[] arr = {6, 1, 2, 7, 9, 8};
         System.out.println(Arrays.toString(arr));
