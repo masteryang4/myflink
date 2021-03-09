@@ -34,3 +34,4 @@ from (
               ) t3
          group by mid_id
      ) t4;
+
