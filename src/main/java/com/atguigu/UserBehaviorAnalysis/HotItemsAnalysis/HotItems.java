@@ -159,7 +159,6 @@ public class HotItems {
 
             // 控制输出频率
             Thread.sleep(1000L);
-
             out.collect(resultBuilder.toString());
         }
     }
